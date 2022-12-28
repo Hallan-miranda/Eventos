@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;  
+}
+
+.fundopreto{
+  background: rgb(36, 30, 30);
+}
+
+.fundobranco{
+  background: rgb(92, 79, 79);
+}
+
+.mouse{
+    border: black solid ;
+    border-radius: 10px ;
+}
+
+.darmode {
+ background: black;
+ 
+}
