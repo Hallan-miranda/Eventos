@@ -1,23 +1,44 @@
+ @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gloria+Hallelujah&family=Montserrat&family=Nunito:wght@200;400&family=Open+Sans&family=Rajdhani&family=Roboto:wght@300&family=Ropa+Sans&family=Rubik+Bubbles&family=Rubik:ital@1&display=swap'); </style>
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;  
 }
 
-.fundopreto{
-  background: rgb(36, 30, 30);
+body{
+  background: black; 
 }
 
-.fundobranco{
-  background: rgb(92, 79, 79);
+section{
+  width: 250px;
+  height: 350px;
+  background: rgb(67, 145, 218);
+  margin-top: 25vh;
+  margin-left: 38%;
+  border-radius: 10px;
+  padding-top: 45px;
 }
 
-.mouse{
-    border: black solid ;
-    border-radius: 10px ;
+h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'Rubik Bubbles', cursive;
 }
 
-.darmode {
- background: black;
- 
+.caixa{
+  margin-top: 45px;
+}
+
+.botao{
+  display: flex;
+  justify-content: center;
+}
+
+.botao input{
+  margin: 10px 6px;
+  background: rgb(233, 175, 67);
+  color: aliceblue;
+  border-radius: 4px;
+  padding: 3px 5px;
+  border: none;
 }
