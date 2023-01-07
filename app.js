@@ -1,17 +1,15 @@
 window.addEventListener('load', function(){
 
+    let botaoEscuro = document.querySelector('.esc')
+    let botaoVerde = document.querySelector('.ver')
 
-    let fundo = document.querySelector('body')
-    let escuro = document.querySelector('.esc')
-    let claro = document.querySelector('.cla')
+    botaoVerde.addEventListener('click', function(){
+        document.querySelector('body').classList.remove('fundoPreto')
+        document.querySelector('body').classList.add('fundoVerde')
+    })
 
-    escuro.addEventListener('mouseout', function(){
-        fundo.classList.remove()
-        fundo.classList.toggle("fundopreto") 
-    });
-    claro.addEventListener('mouseover', function(){
-        fundo.classList.remove()
-        fundo.classList.toggle("fundobranco") 
-    });
-
+    botaoEscuro.addEventListener('click', function(){
+        document.querySelector('body').classList.remove('fundoVerde')
+        document.querySelector('body').classList.add('fundoPreto')
+    })
 });

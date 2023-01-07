@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gloria+Hallelujah&family=Montserrat&family=Nunito:wght@200;400&family=Open+Sans&family=Rajdhani&family=Roboto:wght@300&family=Ropa+Sans&family=Rubik+Bubbles&family=Rubik:ital@1&display=swap'); </style>
+ @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gloria+Hallelujah&family=Montserrat&family=Nunito:wght@200;400&family=Open+Sans&family=Rajdhani&family=Roboto:wght@300&family=Ropa+Sans&family=Rubik+Bubbles&family=Rubik:ital@1&display=swap');
 *{
   padding: 0px;
   margin: 0px;
@@ -6,7 +6,7 @@
 }
 
 body{
-  background: black; 
+  
 }
 
 section{
@@ -41,4 +41,11 @@ h2{
   border-radius: 4px;
   padding: 3px 5px;
   border: none;
+}
+
+.fundoPreto {
+  background: black;
+}
+.fundoVerde{
+  background-color: rgb(76, 189, 104);
 }
